@@ -1,6 +1,7 @@
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+    font-family: arial, sans-serif;
   }
 
 th {
@@ -10,4 +11,12 @@ th {
 #customers th {
     background-color: green;
     color: white;
+}
+
+tr:nth-child(2n){
+    background-color: #7e7b7b;
+}
+
+tr:hover{
+    background-color: brown;
 }
