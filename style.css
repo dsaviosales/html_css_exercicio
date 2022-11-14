@@ -1,0 +1,38 @@
+body {
+
+    font-family: Verdana;
+    background-color: white;
+}
+
+.imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#img-legend {
+    text-align: center;
+
+ }
+ /* formatação usando a div
+div > img {
+    border-radius: 10%;
+} */
+
+/* Usando formatação pelo ID  */
+#img-legend > img {
+    border-radius: 10%;
+}
+#img-legend > figcaption {
+        font-size: 15px;
+        font-weight: 300;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: auto;
+        color: #606060;
+        margin-top: 10px;
+        margin-bottom: 20px;
+}
+
